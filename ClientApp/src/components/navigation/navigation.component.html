@@ -1,0 +1,8 @@
+<div>
+  <div class="navigationItem" *ngFor="let navigationItem of navigationItems">
+      <div class="navigationItemTitle" (click)="navigationItemClick(navigationItem)">{{navigationItem.title}}</div>
+      <div *ngIf="navigationItem.showChildren" class="navigationItemChilds">
+        <app-navigation [navigationItems]="navigationItem.children" (onNavigationItemClick)="navigationItemClick($event)"></app-navigation>
+      </div>
+  </div>
+</div>
