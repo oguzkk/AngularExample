@@ -13,7 +13,6 @@ export class NavigationComponent {
 
 
   navigationItemClick(navigationItem: INavigationItem) {
-    // TODO: stop bubble
     if (navigationItem.children && navigationItem.children.length > 0) {
       navigationItem.showChildren = !navigationItem.showChildren;
     }

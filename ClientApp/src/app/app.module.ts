@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MainModule } from '../pages/page.module';
+import { MenuService } from '../services/menu.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -9,9 +11,12 @@ import { MainModule } from '../pages/page.module';
   ],
   imports: [
     BrowserModule,
-    MainModule
+    MainModule,
+    HttpClientModule 
   ],
-  providers: [],
+  providers: [
+    MenuService
+  ],
   bootstrap: [AppComponent],
   exports: [
   ]

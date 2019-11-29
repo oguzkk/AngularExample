@@ -1,0 +1,52 @@
+[
+  {
+    "Title": "Hesaplar",
+    "Children": [
+      {
+        "Title": "Vadeli Hesaplar",
+        "Page": "accountPage"
+      },
+      {
+        "Title": "Vadesiz Hesaplar",
+        "Page": "accountPage"
+      }
+    ]
+  },
+  {
+    "Title": "Müþteriler",
+    "Children": [
+      {
+        "Title": "Bireysel Müþteriler",
+        "Page": "retailCustomerPage"
+      },
+      {
+        "Title": "Kurumsal Müþteriler",
+        "Page": "corporateCustomerPage"
+      }
+    ]
+  },
+  {
+    "Title": "Nested Menü Örneði",
+    "Children": [
+      {
+        "Title": "Child 1",
+        "Children": [
+          {
+            "Title": "Child 2",
+            "Children": [
+              {
+                "Title": "Child 3",
+                "Children": [
+                  {
+                    "Title": "Örnek Sayfa",
+                    "Page": "examplePage"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
