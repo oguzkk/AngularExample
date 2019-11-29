@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MainModule } from '../pages/page.module';
-import { MenuService } from '../services/menu.service';
+import { HttpService } from '../services/http.service';
 import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
@@ -15,7 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule 
   ],
   providers: [
-    MenuService
+    HttpService
   ],
   bootstrap: [AppComponent],
   exports: [

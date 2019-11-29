@@ -1,0 +1,44 @@
+{
+  "CorporateCustomers": [
+    {
+      "Name": "Þirket 1",
+      "Type": "Kurumsal"
+    },
+    {
+      "Name": "Þirket 2",
+      "Type": "Kurumsal"
+    },
+    {
+      "Name": "Þirket 3",
+      "Type": "Kurumsal"
+    },
+    {
+      "Name": "Þirket 4",
+      "Type": "Kurumsal"
+    }
+  ],
+  "RetailCustomers": [
+    {
+      "Name": "Ali",
+      "Type": "Bireysel"
+    },
+    {
+      "Name": "Veli",
+      "Type": "Bireysel"
+    }
+  ],
+  "Accounts": [
+    {
+      "Name": "Hesap 1",
+      "Type": "Vadeli"
+    },
+    {
+      "Name": "Hesap 2",
+      "Type": "Vadeli"
+    },
+    {
+      "Name": "Hesap 3",
+      "Type": "Vadeli"
+    }
+  ]
+}

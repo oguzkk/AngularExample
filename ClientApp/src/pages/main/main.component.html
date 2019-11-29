@@ -6,7 +6,7 @@
     <app-navigation [navigationItems]="navigationItems" (onNavigationItemClick)="onNavigationItemClick($event)"></app-navigation>
   </div>
   <div class="active-page">
-    <ng-container></ng-container>
+    <page-caller [page]="activePage"></page-caller>
   </div>
 </div>
 

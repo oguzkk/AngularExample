@@ -3,4 +3,10 @@ export interface INavigationItem {
   children: INavigationItem[];
   showChildren: boolean;
   page: string;
+  transaction: string;
+}
+
+export interface IResponseItem {
+  name: string;
+  type: string;
 }

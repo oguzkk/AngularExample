@@ -33,16 +33,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ClientApp\src\helpers\constants.ts" />
     <None Remove="ClientApp\src\models\models.ts" />
+    <None Remove="ClientApp\src\pages\pageCaller\pageHelper.ts" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\src\services\" />
-    <Folder Include="ClientApp\src\service\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <TypeScriptCompile Include="ClientApp\src\helpers\constants.ts" />
     <TypeScriptCompile Include="ClientApp\src\models\models.ts" />
+    <TypeScriptCompile Include="ClientApp\src\helpers\generalHelper.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

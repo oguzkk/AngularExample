@@ -4,7 +4,8 @@
     "Children": [
       {
         "Title": "Vadeli Hesaplar",
-        "Page": "accountPage"
+        "Page": "accountPage",
+        "Transaction": "GetAccounts"
       },
       {
         "Title": "Vadesiz Hesaplar",
@@ -17,11 +18,13 @@
     "Children": [
       {
         "Title": "Bireysel Müþteriler",
-        "Page": "retailCustomerPage"
+        "Page": "customerPage",
+        "Transaction": "GetRetailCustomers"
       },
       {
         "Title": "Kurumsal Müþteriler",
-        "Page": "corporateCustomerPage"
+        "Page": "customerPage",
+        "Transaction":  "GetCorporateCustomers"
       }
     ]
   },
